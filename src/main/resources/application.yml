@@ -6,7 +6,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/product
+    url: jdbc:mysql://${MYSQL_HOST:95.111.227.112}:3307/product
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
